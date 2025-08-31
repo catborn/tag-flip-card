@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>flip card</title>
+</head>
+
+<body>
+  <div id="cards">
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <p>Front Side</p>
+        </div>
+        <div class="card-back">
+          <p>Back Side</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    fetch('./data.json')
+      .then(r => r.json())
+      .then(data => {
+        const container = document.getElementById('cards');
+        const firstCard = container.querySelector('.card');
+
+        data.forEach((item, idx) => {
+          let cardEl;
+          if (idx === 0) {
+            // Заполняем первую существующую карточку
+            cardEl = firstCard;
+          } else {
+            // Клонируем её для остальных
+            cardEl = firstCard.cloneNode(true);
+            container.appendChild(cardEl);
+          }
+          const frontP = cardEl.querySelector('.card-front p');
+          frontP.textContent = `Front Side: ${item.tag}`;
+        });
+      })
+      .catch(console.error);
+  </script>
+</body>
+
+</html>

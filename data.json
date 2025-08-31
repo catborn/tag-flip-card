@@ -1,5 +1,9 @@
 [
-  { "id": 1, "tag": "a" },
+  {
+    "id": 1,
+    "tag": "<a>",
+    "specification": "specification"
+  },
   {
     "id": 2,
     "tag": "p"

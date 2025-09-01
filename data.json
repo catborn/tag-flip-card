@@ -1,5 +1,12 @@
 [
   {
+    "id": 0,
+    "tag": "!DOCTYPE",
+    "specification": "Декларация типа документа HTML5 (не HTML-элемент)",
+    "display": "none",
+    "void": true
+  },
+  {
     "id": 1,
     "tag": "html",
     "specification": "корневой элемент html-документа",

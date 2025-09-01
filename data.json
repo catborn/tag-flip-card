@@ -2,7 +2,8 @@
   {
     "id": 1,
     "tag": "<a>",
-    "specification": "specification"
+    "specification": "specification",
+    "display": "inline"
   },
   {
     "id": 2,

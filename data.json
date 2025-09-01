@@ -1,95 +1,672 @@
 [
   {
     "id": 1,
-    "tag": "<a>",
-    "specification": "specification",
+    "tag": "html",
+    "specification": "корневой элемент html-документа",
+    "display": "block"
+  },
+  {
+    "id": 2,
+    "tag": "head",
+    "specification": "контейнер для метаданных html-документа",
+    "display": "none"
+  },
+  {
+    "id": 3,
+    "tag": "title",
+    "specification": "заголовок / имя html-документа",
+    "display": "none"
+  },
+  {
+    "id": 4,
+    "tag": "base",
+    "specification": "базовый url-адрес, относительно которого вычисляются относительные адреса",
+    "display": "none"
+  },
+  {
+    "id": 5,
+    "tag": "link",
+    "specification": "подключает внешние таблицы стилей",
+    "display": "none"
+  },
+  {
+    "id": 6,
+    "tag": "meta",
+    "specification": "мета-данные веб-страницы",
+    "display": "none"
+  },
+  {
+    "id": 7,
+    "tag": "style",
+    "specification": "подключает таблицы стилей",
+    "display": "none"
+  },
+
+  {
+    "id": 8,
+    "tag": "body",
+    "specification": "тело html-документа",
+    "display": "block"
+  },
+  {
+    "id": 9,
+    "tag": "article",
+    "specification": "раздел контента, образующий независимую часть документа или сайта",
+    "display": "block"
+  },
+  {
+    "id": 10,
+    "tag": "section",
+    "specification": "логическая область (раздел) страницы, обычно с заголовком",
+    "display": "block"
+  },
+  {
+    "id": 11,
+    "tag": "nav",
+    "specification": "раздел документа, содержащий навигационные ссылки по сайту",
+    "display": "block"
+  },
+  {
+    "id": 12,
+    "tag": "aside",
+    "specification": "контент страницы, имеющий косвенное отношение к основному контенту",
+    "display": "block"
+  },
+  {
+    "id": 13,
+    "tag": "h1",
+    "specification": "заголовок 1 уровня",
+    "display": "block"
+  },
+  {
+    "id": 14,
+    "tag": "h2",
+    "specification": "заголовок 2 уровня",
+    "display": "block"
+  },
+  {
+    "id": 15,
+    "tag": "h3",
+    "specification": "заголовок 3 уровня",
+    "display": "block"
+  },
+  {
+    "id": 16,
+    "tag": "h4",
+    "specification": "заголовок 4 уровня",
+    "display": "block"
+  },
+  {
+    "id": 17,
+    "tag": "h5",
+    "specification": "заголовок 5 уровня",
+    "display": "block"
+  },
+  {
+    "id": 18,
+    "tag": "h6",
+    "specification": "заголовок 6 уровня",
+    "display": "block"
+  },
+  {
+    "id": 19,
+    "tag": "header",
+    "specification": "секция для вводной информации сайта или группы навигационных ссылок",
+    "display": "block"
+  },
+  {
+    "id": 20,
+    "tag": "footer",
+    "specification": "секция для нижнего колонтитула документа или раздела",
+    "display": "block"
+  },
+
+  {
+    "id": 21,
+    "tag": "p",
+    "specification": "параграфы в тексте",
+    "display": "block"
+  },
+  {
+    "id": 22,
+    "tag": "address",
+    "specification": "контактные данные автора документа или статьи",
+    "display": "block"
+  },
+  {
+    "id": 23,
+    "tag": "hr",
+    "specification": "горизонтальная линия",
+    "display": "block"
+  },
+  {
+    "id": 24,
+    "tag": "pre",
+    "specification": "выводит текст с пробелами и переносами",
+    "display": "block"
+  },
+  {
+    "id": 25,
+    "tag": "blockquote",
+    "specification": "большая цитата",
+    "display": "block"
+  },
+  {
+    "id": 26,
+    "tag": "ol",
+    "specification": "упорядоченный нумерованный список",
+    "display": "block"
+  },
+  {
+    "id": 27,
+    "tag": "ul",
+    "specification": "маркированный список",
+    "display": "block"
+  },
+  {
+    "id": 28,
+    "tag": "li",
+    "specification": "элемент списка",
+    "display": "list-item"
+  },
+  {
+    "id": 29,
+    "tag": "dl",
+    "specification": "контейнер для термина и его описания",
+    "display": "block"
+  },
+  {
+    "id": 30,
+    "tag": "dt",
+    "specification": "задаёт термин",
+    "display": "block"
+  },
+  {
+    "id": 31,
+    "tag": "dd",
+    "specification": "расшифровывает термин",
+    "display": "block"
+  },
+  {
+    "id": 32,
+    "tag": "figure",
+    "specification": "независимый контейнер для такого контента как изображения, диаграммы и т.п.",
+    "display": "block"
+  },
+  {
+    "id": 33,
+    "tag": "figcaption",
+    "specification": "заголовок для элемента <figure>",
+    "display": "block"
+  },
+  {
+    "id": 34,
+    "tag": "main",
+    "specification": "контейнер для уникального основного содержимого в пределах одной страницы сайта",
+    "display": "block"
+  },
+  {
+    "id": 35,
+    "tag": "div",
+    "specification": "контейнер для разделов html-документа, группирует блочные элементы",
+    "display": "block"
+  },
+
+  {
+    "id": 36,
+    "tag": "table",
+    "specification": "html-таблица",
+    "display": "table"
+  },
+  {
+    "id": 37,
+    "tag": "caption",
+    "specification": "подпись к таблице",
+    "display": "table-caption"
+  },
+  {
+    "id": 38,
+    "tag": "colgroup",
+    "specification": "контейнер для одного или нескольких <col>",
+    "display": "table-column-group"
+  },
+  {
+    "id": 39,
+    "tag": "col",
+    "specification": "выбирает для форматирования столбцы",
+    "display": "table-column"
+  },
+  {
+    "id": 40,
+    "tag": "thead",
+    "specification": "блок заголовков таблицы",
+    "display": "table-header-group"
+  },
+  {
+    "id": 41,
+    "tag": "tbody",
+    "specification": "тело таблицы",
+    "display": "table-row-group"
+  },
+  {
+    "id": 42,
+    "tag": "tfoot",
+    "specification": "нижний колонтитул таблицы",
+    "display": "table-footer-group"
+  },
+  {
+    "id": 43,
+    "tag": "tr",
+    "specification": "строка таблицы",
+    "display": "table-row"
+  },
+  {
+    "id": 44,
+    "tag": "th",
+    "specification": "заголовок столбца таблицы",
+    "display": "table-cell"
+  },
+  {
+    "id": 45,
+    "tag": "td",
+    "specification": "ячейка таблицы",
+    "display": "table-cell"
+  },
+
+  {
+    "id": 46,
+    "tag": "details",
+    "specification": "контейнер с дополнительными сведениями, который можно открыть или закрыть",
+    "display": "block"
+  },
+  {
+    "id": 47,
+    "tag": "summary",
+    "specification": "видимый заголовок для элемента <details>",
+    "display": "block"
+  },
+  {
+    "id": 48,
+    "tag": "dialog",
+    "specification": "диалоговое окно, инспектор или окно",
+    "display": "block"
+  },
+
+  {
+    "id": 49,
+    "tag": "script",
+    "specification": "подключает сценарии к странице",
+    "display": "none"
+  },
+  {
+    "id": 50,
+    "tag": "noscript",
+    "specification": "секция, не поддерживающая скрипт",
+    "display": "block"
+  },
+  {
+    "id": 51,
+    "tag": "template",
+    "specification": "фрагменты HTML-кода, которые могут быть клонированы и вставлены в документ скриптом",
+    "display": "none"
+  },
+  {
+    "id": 52,
+    "tag": "canvas",
+    "specification": "холст-контейнер для динамического отображения изображений",
+    "display": "inline-block"
+  },
+
+  {
+    "id": 53,
+    "tag": "picture",
+    "specification": "контейнер для одного <img> и ноль или больше <source>",
     "display": "inline"
   },
   {
-    "id": 2,
-    "tag": "p",
-    "specification": "specification"
+    "id": 54,
+    "tag": "source",
+    "specification": "местоположение и тип альтернативных медиаресурсов для элементов <picture>, <video>, <audio>",
+    "display": "none"
   },
   {
-    "id": 3,
-    "tag": "div",
-    "specification": "specification"
-  },
-  { "id": 1, "tag": "a", "specification": "specification" },
-  {
-    "id": 2,
-    "tag": "p",
-    "specification": "specification"
+    "id": 55,
+    "tag": "img",
+    "specification": "html-изображения",
+    "display": "inline"
   },
   {
-    "id": 3,
-    "tag": "div",
-    "specification": "specification"
-  },
-  { "id": 1, "tag": "a", "specification": "specification" },
-  {
-    "id": 2,
-    "tag": "p",
-    "specification": "specification"
+    "id": 56,
+    "tag": "iframe",
+    "specification": "создаёт встроенный фрейм",
+    "display": "block"
   },
   {
-    "id": 3,
-    "tag": "div",
-    "specification": "specification"
-  },
-  { "id": 1, "tag": "a", "specification": "specification" },
-  {
-    "id": 2,
-    "tag": "p",
-    "specification": "specification"
+    "id": 57,
+    "tag": "embed",
+    "specification": "встраивает внешний интерактивный контент или плагин",
+    "display": "inline-block"
   },
   {
-    "id": 3,
-    "tag": "div",
-    "specification": "specification"
-  },
-  { "id": 1, "tag": "a", "specification": "specification" },
-  {
-    "id": 2,
-    "tag": "p",
-    "specification": "specification"
+    "id": 58,
+    "tag": "object",
+    "specification": "контейнер для встраивания мультимедиа",
+    "display": "inline-block"
   },
   {
-    "id": 3,
-    "tag": "div",
-    "specification": "specification"
-  },
-  { "id": 1, "tag": "a", "specification": "specification" },
-  {
-    "id": 2,
-    "tag": "p",
-    "specification": "specification"
+    "id": 59,
+    "tag": "param",
+    "specification": "задаёт параметры для плагинов, встраиваемых с помощью элемента <object>",
+    "display": "none"
   },
   {
-    "id": 3,
-    "tag": "div",
-    "specification": "specification"
-  },
-  { "id": 1, "tag": "a", "specification": "specification" },
-  {
-    "id": 2,
-    "tag": "p",
-    "specification": "specification"
+    "id": 60,
+    "tag": "audio",
+    "specification": "добавляет аудио-файлы",
+    "display": "inline-block"
   },
   {
-    "id": 3,
-    "tag": "div",
-    "specification": "specification"
-  },
-  { "id": 1, "tag": "a", "specification": "specification" },
-  {
-    "id": 2,
-    "tag": "p",
-    "specification": "specification"
+    "id": 61,
+    "tag": "video",
+    "specification": "добавляет видео-файлы",
+    "display": "inline-block"
   },
   {
-    "id": 3,
-    "tag": "div",
-    "specification": "specification"
+    "id": 62,
+    "tag": "track",
+    "specification": "субтитры для элементов <audio> и <video>",
+    "display": "none"
+  },
+  {
+    "id": 63,
+    "tag": "map",
+    "specification": "активные области на карте-изображении",
+    "display": "inline"
+  },
+  {
+    "id": 64,
+    "tag": "area",
+    "specification": "гиперссылка с текстом или активная область внутри карты-изображения",
+    "display": "inline"
+  },
+
+  { "id": 65, "tag": "a", "specification": "гиперссылка", "display": "inline" },
+  {
+    "id": 66,
+    "tag": "em",
+    "specification": "выделяет важные фрагменты текста курсивом",
+    "display": "inline"
+  },
+  {
+    "id": 67,
+    "tag": "strong",
+    "specification": "выделяет полужирным важный текст",
+    "display": "inline"
+  },
+  {
+    "id": 68,
+    "tag": "small",
+    "specification": "отображает текст шрифтом меньшего размера",
+    "display": "inline"
+  },
+  {
+    "id": 69,
+    "tag": "s",
+    "specification": "перечёркивает неактуальный текст",
+    "display": "inline"
+  },
+  {
+    "id": 70,
+    "tag": "cite",
+    "specification": "источник цитирования",
+    "display": "inline"
+  },
+  {
+    "id": 71,
+    "tag": "q",
+    "specification": "краткая цитата",
+    "display": "inline"
+  },
+  {
+    "id": 72,
+    "tag": "dfn",
+    "specification": "выделяет термин курсивом",
+    "display": "inline"
+  },
+  {
+    "id": 73,
+    "tag": "abbr",
+    "specification": "аббревиатура или акроним",
+    "display": "none"
+  },
+  {
+    "id": 74,
+    "tag": "ruby",
+    "specification": "контейнер для Восточно-Азиатских символов и их расшифровки",
+    "display": "inline"
+  },
+  {
+    "id": 75,
+    "tag": "rb",
+    "specification": "обертка для аннотации",
+    "display": "inline"
+  },
+  {
+    "id": 76,
+    "tag": "rp",
+    "specification": "тег для скобок вокруг символов",
+    "display": "none"
+  },
+  {
+    "id": 77,
+    "tag": "rt",
+    "specification": "расшифровка символов",
+    "display": "block"
+  },
+  {
+    "id": 78,
+    "tag": "rtc",
+    "specification": "обертка для дополнительной аннотации",
+    "display": "inline"
+  },
+  {
+    "id": 79,
+    "tag": "data",
+    "specification": "связывает содержимое с машиночитаемым переводом",
+    "display": "inline"
+  },
+  {
+    "id": 80,
+    "tag": "time",
+    "specification": "дата / время документа или статьи",
+    "display": "inline"
+  },
+  {
+    "id": 81,
+    "tag": "code",
+    "specification": "фрагмент программного кода",
+    "display": "inline"
+  },
+  {
+    "id": 82,
+    "tag": "var",
+    "specification": "выделяет переменные из программ",
+    "display": "inline"
+  },
+  {
+    "id": 83,
+    "tag": "samp",
+    "specification": "результат выполнения сценария",
+    "display": "inline"
+  },
+  {
+    "id": 84,
+    "tag": "kbd",
+    "specification": "текст, вводимый пользователем с клавиатуры",
+    "display": "inline"
+  },
+  {
+    "id": 85,
+    "tag": "sub",
+    "specification": "подстрочное написание символов",
+    "display": "inline"
+  },
+  {
+    "id": 86,
+    "tag": "sup",
+    "specification": "надстрочное написание символов",
+    "display": "inline"
+  },
+  {
+    "id": 87,
+    "tag": "i",
+    "specification": "выделяет текст курсивом без акцента",
+    "display": "inline"
+  },
+  {
+    "id": 88,
+    "tag": "b",
+    "specification": "задает полужирное начертание отрывка текста, без дополнительного акцента",
+    "display": "inline"
+  },
+  {
+    "id": 89,
+    "tag": "u",
+    "specification": "выделяет отрывок текста подчёркиванием, без дополнительного акцента",
+    "display": "inline"
+  },
+  {
+    "id": 90,
+    "tag": "mark",
+    "specification": "выделяет фрагменты текста желтым фоном",
+    "display": "inline"
+  },
+  {
+    "id": 91,
+    "tag": "bdi",
+    "specification": "изолирует текст, читаемый справа налево",
+    "display": "inline"
+  },
+  {
+    "id": 92,
+    "tag": "bdo",
+    "specification": "задаёт направление написания текста",
+    "display": "inline"
+  },
+  {
+    "id": 93,
+    "tag": "span",
+    "specification": "контейнер для строчных элементов",
+    "display": "inline"
+  },
+  {
+    "id": 94,
+    "tag": "br",
+    "specification": "перенос текста на новую строку",
+    "display": "none"
+  },
+  {
+    "id": 95,
+    "tag": "wbr",
+    "specification": "возможное место разрыва длинной строки",
+    "display": "none"
+  },
+
+  {
+    "id": 96,
+    "tag": "del",
+    "specification": "перечёркивает текст, помечая как удаленный",
+    "display": "inline"
+  },
+  {
+    "id": 97,
+    "tag": "ins",
+    "specification": "подчёркивает изменения в тексте",
+    "display": "inline"
+  },
+
+  {
+    "id": 98,
+    "tag": "form",
+    "specification": "html-форма",
+    "display": "block"
+  },
+  {
+    "id": 99,
+    "tag": "label",
+    "specification": "текстовая метка для элемента <input>",
+    "display": "inline"
+  },
+  {
+    "id": 100,
+    "tag": "input",
+    "specification": "многофункциональные поля формы",
+    "display": "inline-block"
+  },
+  {
+    "id": 101,
+    "tag": "button",
+    "specification": "интерактивная кнопка",
+    "display": "inline-block"
+  },
+  {
+    "id": 102,
+    "tag": "select",
+    "specification": "элемент управления с выбором значений из предложенных вариантов <option>",
+    "display": "inline-block"
+  },
+  {
+    "id": 103,
+    "tag": "datalist",
+    "specification": "контейнер для выпадающего списка элемента <input> с <option>-значениями",
+    "display": "none"
+  },
+  {
+    "id": 104,
+    "tag": "optgroup",
+    "specification": "контейнер с заголовком для группы элементов <option>",
+    "display": "block"
+  },
+  {
+    "id": 105,
+    "tag": "option",
+    "specification": "вариант (опция) в раскрывающемся списке",
+    "display": "block"
+  },
+  {
+    "id": 106,
+    "tag": "textarea",
+    "specification": "многострочное поле формы",
+    "display": "inline-block"
+  },
+  {
+    "id": 107,
+    "tag": "output",
+    "specification": "поле для вывода результата вычисления",
+    "display": "inline"
+  },
+  {
+    "id": 108,
+    "tag": "progress",
+    "specification": "индикатор выполнения задачи",
+    "display": "inline-block"
+  },
+  {
+    "id": 109,
+    "tag": "meter",
+    "specification": "индикатор измерения в заданном диапазоне",
+    "display": "inline-block"
+  },
+  {
+    "id": 110,
+    "tag": "fieldset",
+    "specification": "группирует связанные элементы в форме",
+    "display": "block"
+  },
+  {
+    "id": 111,
+    "tag": "legend",
+    "specification": "заголовок элементов формы, сгруппированных с помощью <fieldset>",
+    "display": "block"
   }
 ]

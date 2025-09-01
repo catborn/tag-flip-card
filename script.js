@@ -30,7 +30,7 @@ fetch("./data.json")
         backP = document.createElement("p");
         cardEl.querySelector(".card-back").appendChild(backP);
       }
-      backP.textContent = `${item.specification} ${item.display}`;
+      backP.textContent = `${item.specification}: ${item.display}`;
     });
   })
   .catch(console.error);

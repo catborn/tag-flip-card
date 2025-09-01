@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "tag": "!DOCTYPE",
+    "tag": "<!DOCTYPE>",
     "specification": "Декларация типа документа HTML5 (не HTML-элемент)",
     "display": "none",
     "void": true
@@ -29,21 +29,21 @@
   },
   {
     "id": 4,
-    "tag": "base",
+    "tag": "<base>",
     "specification": "базовый url-адрес, относительно которого вычисляются относительные адреса",
     "display": "none",
     "void": true
   },
   {
     "id": 5,
-    "tag": "link",
+    "tag": "<link>",
     "specification": "подключает внешние таблицы стилей",
     "display": "none",
     "void": true
   },
   {
     "id": 6,
-    "tag": "meta",
+    "tag": "<meta>",
     "specification": "мета-данные веб-страницы",
     "display": "none",
     "void": true
@@ -164,7 +164,7 @@
   },
   {
     "id": 23,
-    "tag": "hr",
+    "tag": "<hr>",
     "specification": "горизонтальная линия",
     "display": "block",
     "void": true
@@ -277,7 +277,7 @@
   },
   {
     "id": 39,
-    "tag": "col",
+    "tag": "<col>",
     "specification": "выбирает для форматирования столбцы",
     "display": "table-column",
     "void": true
@@ -385,14 +385,14 @@
   },
   {
     "id": 54,
-    "tag": "source",
+    "tag": "<source>",
     "specification": "местоположение и тип альтернативных медиаресурсов для элементов <picture>, <video>, <audio>",
     "display": "none",
     "void": true
   },
   {
     "id": 55,
-    "tag": "img",
+    "tag": "<img>",
     "specification": "html-изображения",
     "display": "inline",
     "void": true
@@ -406,7 +406,7 @@
   },
   {
     "id": 57,
-    "tag": "embed",
+    "tag": "<embed>",
     "specification": "встраивает внешний интерактивный контент или плагин",
     "display": "inline-block",
     "void": true
@@ -420,7 +420,7 @@
   },
   {
     "id": 59,
-    "tag": "param",
+    "tag": "<param>",
     "specification": "задаёт параметры для плагинов, встраиваемых с помощью элемента <object>",
     "display": "none",
     "void": true
@@ -441,7 +441,7 @@
   },
   {
     "id": 62,
-    "tag": "track",
+    "tag": "<track>",
     "specification": "субтитры для элементов <audio> и <video>",
     "display": "none",
     "void": true
@@ -455,7 +455,7 @@
   },
   {
     "id": 64,
-    "tag": "area",
+    "tag": "<area>",
     "specification": "гиперссылка с текстом или активная область внутри карты-изображения",
     "display": "inline",
     "void": true
@@ -666,14 +666,14 @@
   },
   {
     "id": 94,
-    "tag": "br",
+    "tag": "<br>",
     "specification": "перенос текста на новую строку",
     "display": "none",
     "void": true
   },
   {
     "id": 95,
-    "tag": "wbr",
+    "tag": "<wbr>",
     "specification": "возможное место разрыва длинной строки",
     "display": "none",
     "void": true
@@ -710,7 +710,7 @@
   },
   {
     "id": 100,
-    "tag": "input",
+    "tag": "<input>",
     "specification": "многофункциональные поля формы",
     "display": "inline-block",
     "void": true
